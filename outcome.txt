@@ -1,0 +1,1541 @@
+n,m,k,r,c,e,eta,max_round 2 2 1 70 152 0.5 0.1 500
+acc of qisvm:  1.0
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 2 2 1 70 152 0.5 0.1 500
+acc of qisvm:  1.0
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 2 2 1 70 152 0.5 0.1 500
+acc of qisvm:  1.0
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 2 2 1 32 96 0.5 0.5 500
+acc of qisvm:  1.0
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 2 2 1 16 64 0.5 1.0 500
+acc of qisvm:  1.0
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 50 50 1 197 229 0.5 0.01 5000
+c of qisvm:  1.0
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 2 2 1 107 199 0.5 0.02 5000
+n,m,k,r,c,e,eta,max_round 100 100 1 3 2 5.0 0.01 5000
+acc of qisvm:  0.86
+acc of svm:  0.69
+n,m,k,r,c,e,eta,max_round 100 100 1 2 2 5.0 0.02 5000
+acc of qisvm:  0.88
+acc of svm:  0.9299999999999999
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.03 5000
+acc of qisvm:  0.99
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.04 5000
+acc of qisvm:  0.95
+acc of svm:  0.76
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.05 5000
+acc of qisvm:  0.84
+acc of svm:  0.86
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.06 5000
+acc of qisvm:  0.98
+acc of svm:  0.89
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.07 5000
+acc of qisvm:  0.94
+acc of svm:  0.94
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.08 5000
+acc of qisvm:  0.96
+acc of svm:  0.96
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.09 5000
+acc of qisvm:  0.89
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.1 5000
+acc of qisvm:  0.9
+acc of svm:  0.95
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.11 5000
+acc of qisvm:  0.92
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.12 5000
+acc of qisvm:  0.87
+acc of svm:  0.87
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.13 5000
+acc of qisvm:  0.95
+acc of svm:  0.88
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.14 5000
+acc of qisvm:  0.98
+acc of svm:  0.83
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.15 5000
+acc of qisvm:  0.91
+acc of svm:  0.84
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.16 5000
+acc of qisvm:  0.8
+acc of svm:  0.7
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.17 5000
+acc of qisvm:  0.96
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.18 5000
+acc of qisvm:  0.87
+acc of svm:  0.87
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.19 5000
+acc of qisvm:  0.99
+acc of svm:  0.91
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.2 5000
+acc of qisvm:  0.97
+acc of svm:  0.8200000000000001
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.21 5000
+acc of qisvm:  0.9299999999999999
+acc of svm:  0.85
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.22 5000
+acc of qisvm:  0.9299999999999999
+acc of svm:  0.89
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.23 5000
+acc of qisvm:  0.91
+acc of svm:  0.96
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.24 5000
+acc of qisvm:  0.99
+acc of svm:  0.92
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.25 5000
+acc of qisvm:  0.78
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.26 5000
+acc of qisvm:  0.91
+acc of svm:  0.87
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.27 5000
+acc of qisvm:  0.91
+acc of svm:  0.77
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.28 5000
+acc of qisvm:  0.89
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.29 5000
+acc of qisvm:  0.8200000000000001
+acc of svm:  0.89
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.3 5000
+acc of qisvm:  0.97
+acc of svm:  0.77
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.31 5000
+acc of qisvm:  0.88
+acc of svm:  0.88
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.32 5000
+acc of qisvm:  0.9299999999999999
+acc of svm:  0.94
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.33 5000
+acc of qisvm:  1.0
+acc of svm:  0.6699999999999999
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.34 5000
+acc of qisvm:  0.87
+acc of svm:  0.75
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.35 5000
+acc of qisvm:  0.98
+acc of svm:  0.89
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.36 5000
+acc of qisvm:  0.96
+acc of svm:  0.87
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.37 5000
+acc of qisvm:  0.78
+acc of svm:  0.8
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.38 5000
+acc of qisvm:  0.95
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.39 5000
+acc of qisvm:  0.99
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.4 5000
+acc of qisvm:  0.97
+acc of svm:  0.91
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.41 5000
+acc of qisvm:  0.9299999999999999
+acc of svm:  0.8
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.42 5000
+acc of qisvm:  0.91
+acc of svm:  0.91
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.43 5000
+acc of qisvm:  0.9
+acc of svm:  0.94
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.44 5000
+acc of qisvm:  0.96
+acc of svm:  0.77
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.45 5000
+acc of qisvm:  0.95
+acc of svm:  0.87
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.46 5000
+acc of qisvm:  0.96
+acc of svm:  0.88
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.47 5000
+acc of qisvm:  0.96
+acc of svm:  0.89
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.48 5000
+acc of qisvm:  1.0
+acc of svm:  0.92
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.49 5000
+acc of qisvm:  0.9
+acc of svm:  0.75
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.5 5000
+acc of qisvm:  0.87
+acc of svm:  0.91
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.51 5000
+acc of qisvm:  0.87
+acc of svm:  0.79
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.52 5000
+acc of qisvm:  0.9299999999999999
+acc of svm:  0.89
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.53 5000
+acc of qisvm:  0.95
+acc of svm:  0.8200000000000001
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.54 5000
+acc of qisvm:  0.9
+acc of svm:  0.88
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.55 5000
+acc of qisvm:  0.98
+acc of svm:  0.87
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.56 5000
+acc of qisvm:  0.89
+acc of svm:  0.9299999999999999
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.57 5000
+acc of qisvm:  0.88
+acc of svm:  0.79
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.58 5000
+acc of qisvm:  0.95
+acc of svm:  0.9299999999999999
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.59 5000
+acc of qisvm:  0.9
+acc of svm:  0.74
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.6 5000
+acc of qisvm:  0.84
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.61 5000
+acc of qisvm:  1.0
+acc of svm:  0.8200000000000001
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.62 5000
+acc of qisvm:  0.97
+acc of svm:  0.9
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.63 5000
+acc of qisvm:  0.95
+acc of svm:  0.9299999999999999
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.64 5000
+acc of qisvm:  0.9
+acc of svm:  0.61
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.65 5000
+acc of qisvm:  0.9299999999999999
+acc of svm:  0.78
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.66 5000
+acc of qisvm:  0.88
+acc of svm:  0.88
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.67 5000
+acc of qisvm:  0.88
+acc of svm:  0.9299999999999999
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.68 5000
+acc of qisvm:  0.78
+acc of svm:  0.87
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.69 5000
+acc of qisvm:  0.89
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.7 5000
+acc of qisvm:  0.84
+acc of svm:  0.9
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.71 5000
+acc of qisvm:  0.92
+acc of svm:  0.94
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.72 5000
+acc of qisvm:  0.88
+acc of svm:  0.72
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.73 5000
+acc of qisvm:  0.86
+acc of svm:  0.86
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.74 5000
+acc of qisvm:  0.71
+acc of svm:  0.9
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.75 5000
+acc of qisvm:  0.97
+acc of svm:  0.88
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.76 5000
+acc of qisvm:  0.96
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.77 5000
+acc of qisvm:  0.97
+acc of svm:  0.8200000000000001
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.78 5000
+acc of qisvm:  0.91
+acc of svm:  0.95
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.79 5000
+acc of qisvm:  0.94
+acc of svm:  0.6599999999999999
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.8 5000
+acc of qisvm:  1.0
+acc of svm:  0.85
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.81 5000
+acc of qisvm:  0.97
+acc of svm:  0.83
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.82 5000
+acc of qisvm:  0.95
+acc of svm:  0.92
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.83 5000
+acc of qisvm:  0.87
+acc of svm:  0.85
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.84 5000
+acc of qisvm:  0.91
+acc of svm:  0.91
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.85 5000
+acc of qisvm:  0.87
+acc of svm:  0.8
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.86 5000
+acc of qisvm:  0.8200000000000001
+acc of svm:  0.96
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.87 5000
+acc of qisvm:  0.84
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.88 5000
+acc of qisvm:  0.86
+acc of svm:  0.79
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.89 5000
+acc of qisvm:  0.96
+acc of svm:  0.73
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.9 5000
+acc of qisvm:  0.99
+acc of svm:  0.81
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.91 5000
+acc of qisvm:  0.84
+acc of svm:  0.91
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.92 5000
+acc of qisvm:  0.96
+acc of svm:  0.86
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.93 5000
+acc of qisvm:  0.77
+acc of svm:  0.6799999999999999
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.94 5000
+acc of qisvm:  0.92
+acc of svm:  0.89
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.95 5000
+acc of qisvm:  0.97
+acc of svm:  0.97
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.96 5000
+acc of qisvm:  0.81
+acc of svm:  0.65
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.97 5000
+acc of qisvm:  0.91
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.98 5000
+acc of qisvm:  0.88
+acc of svm:  0.87
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.99 5000
+acc of qisvm:  0.92
+acc of svm:  0.91
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 1.0 5000
+acc of qisvm:  0.91
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 160 171 0.5 0.1 5000
+ of qisvm:  0.87
+acc of svm:  0.92
+n,m,k,r,c,e,eta,max_round 100 100 1 2 2 5.0 0.02 5000
+acc of qisvm:  0.91
+acc of svm:  0.92
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.03 5000
+acc of qisvm:  0.9299999999999999
+acc of svm:  0.89
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.04 5000
+acc of qisvm:  0.99
+acc of svm:  0.8
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.05 5000
+acc of qisvm:  0.84
+acc of svm:  0.86
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.06 5000
+acc of qisvm:  0.91
+acc of svm:  0.76
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.07 5000
+acc of qisvm:  0.94
+acc of svm:  0.94
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.08 5000
+acc of qisvm:  0.87
+acc of svm:  0.84
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.09 5000
+acc of qisvm:  0.96
+acc of svm:  0.91
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.1 5000
+acc of qisvm:  0.9299999999999999
+acc of svm:  0.86
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.11 5000
+acc of qisvm:  0.96
+acc of svm:  0.9
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.12 5000
+acc of qisvm:  0.9
+acc of svm:  0.9
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.13 5000
+acc of qisvm:  0.85
+acc of svm:  0.85
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.14 5000
+acc of qisvm:  0.9299999999999999
+acc of svm:  0.85
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.15 5000
+acc of qisvm:  1.0
+acc of svm:  0.95
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.16 5000
+acc of qisvm:  0.97
+acc of svm:  0.9299999999999999
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.17 5000
+acc of qisvm:  0.87
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.18 5000
+acc of qisvm:  0.92
+acc of svm:  0.91
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.19 5000
+acc of qisvm:  0.88
+acc of svm:  0.69
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.2 5000
+acc of qisvm:  0.88
+acc of svm:  0.81
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.21 5000
+acc of qisvm:  0.84
+acc of svm:  0.88
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.22 5000
+acc of qisvm:  0.91
+acc of svm:  0.94
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.23 5000
+acc of qisvm:  0.9
+acc of svm:  0.88
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.24 5000
+acc of qisvm:  0.9
+acc of svm:  0.89
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.25 5000
+acc of qisvm:  0.85
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.26 5000
+acc of qisvm:  0.98
+acc of svm:  0.77
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.27 5000
+acc of qisvm:  0.92
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.28 5000
+acc of qisvm:  1.0
+acc of svm:  0.95
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.29 5000
+acc of qisvm:  0.98
+acc of svm:  0.6599999999999999
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.3 5000
+acc of qisvm:  0.89
+acc of svm:  0.91
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.31 5000
+acc of qisvm:  0.9299999999999999
+acc of svm:  0.85
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.32 5000
+acc of qisvm:  0.88
+acc of svm:  0.94
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.33 5000
+acc of qisvm:  0.9
+acc of svm:  0.9299999999999999
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.34 5000
+acc of qisvm:  0.98
+acc of svm:  0.73
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.35 5000
+acc of qisvm:  0.99
+acc of svm:  0.94
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.36 5000
+acc of qisvm:  0.92
+acc of svm:  0.8200000000000001
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.37 5000
+acc of qisvm:  0.98
+acc of svm:  0.8
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.38 5000
+acc of qisvm:  0.92
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.39 5000
+acc of qisvm:  0.8200000000000001
+acc of svm:  0.9299999999999999
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.4 5000
+acc of qisvm:  0.94
+acc of svm:  0.94
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.41 5000
+acc of qisvm:  0.95
+acc of svm:  0.86
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.42 5000
+acc of qisvm:  0.87
+acc of svm:  0.92
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.43 5000
+acc of qisvm:  0.97
+acc of svm:  0.86
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.44 5000
+acc of qisvm:  1.0
+acc of svm:  0.65
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.45 5000
+acc of qisvm:  0.9299999999999999
+acc of svm:  0.69
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.46 5000
+acc of qisvm:  0.8200000000000001
+acc of svm:  0.97
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.47 5000
+acc of qisvm:  0.96
+acc of svm:  0.94
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.48 5000
+acc of qisvm:  0.9
+acc of svm:  0.9299999999999999
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.49 5000
+acc of qisvm:  0.99
+acc of svm:  0.83
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.5 5000
+acc of qisvm:  0.89
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.51 5000
+acc of qisvm:  0.91
+acc of svm:  0.94
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.52 5000
+acc of qisvm:  0.94
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.53 5000
+acc of qisvm:  0.94
+acc of svm:  0.87
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.54 5000
+acc of qisvm:  0.91
+acc of svm:  0.88
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.55 5000
+acc of qisvm:  1.0
+acc of svm:  0.79
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.56 5000
+acc of qisvm:  0.77
+acc of svm:  0.97
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.57 5000
+acc of qisvm:  0.92
+acc of svm:  0.89
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.58 5000
+acc of qisvm:  0.96
+acc of svm:  0.81
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.59 5000
+acc of qisvm:  0.95
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.6 5000
+acc of qisvm:  1.0
+acc of svm:  0.76
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.61 5000
+acc of qisvm:  0.9299999999999999
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.62 5000
+acc of qisvm:  0.98
+acc of svm:  0.87
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.63 5000
+acc of qisvm:  0.97
+acc of svm:  0.79
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.64 5000
+acc of qisvm:  0.9299999999999999
+acc of svm:  0.91
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.65 5000
+acc of qisvm:  0.89
+acc of svm:  0.79
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.66 5000
+acc of qisvm:  0.94
+acc of svm:  0.95
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.67 5000
+acc of qisvm:  0.95
+acc of svm:  0.94
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.68 5000
+acc of qisvm:  0.96
+acc of svm:  0.5900000000000001
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.69 5000
+acc of qisvm:  0.89
+acc of svm:  0.94
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.7 5000
+acc of qisvm:  0.99
+acc of svm:  0.92
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.71 5000
+acc of qisvm:  0.91
+acc of svm:  0.8
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.72 5000
+acc of qisvm:  0.9299999999999999
+acc of svm:  0.9
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.73 5000
+acc of qisvm:  0.78
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.74 5000
+acc of qisvm:  0.8200000000000001
+acc of svm:  0.74
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.75 5000
+acc of qisvm:  0.88
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.76 5000
+acc of qisvm:  1.0
+acc of svm:  0.94
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.77 5000
+acc of qisvm:  0.96
+acc of svm:  0.81
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.78 5000
+acc of qisvm:  0.8
+acc of svm:  0.92
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.79 5000
+acc of qisvm:  0.89
+acc of svm:  0.97
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.8 5000
+acc of qisvm:  0.91
+acc of svm:  0.95
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.81 5000
+acc of qisvm:  0.92
+acc of svm:  0.9299999999999999
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.82 5000
+acc of qisvm:  0.94
+acc of svm:  0.94
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.83 5000
+acc of qisvm:  0.96
+acc of svm:  0.94
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.84 5000
+acc of qisvm:  0.88
+acc of svm:  0.84
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.85 5000
+acc of qisvm:  0.84
+acc of svm:  0.9299999999999999
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.86 5000
+acc of qisvm:  0.8
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.87 5000
+acc of qisvm:  0.9299999999999999
+acc of svm:  0.95
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.88 5000
+acc of qisvm:  1.0
+acc of svm:  0.86
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.89 5000
+acc of qisvm:  0.94
+acc of svm:  0.97
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.9 5000
+acc of qisvm:  0.9
+acc of svm:  0.6599999999999999
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.91 5000
+acc of qisvm:  0.89
+acc of svm:  0.83
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.92 5000
+acc of qisvm:  0.96
+acc of svm:  0.9
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.93 5000
+acc of qisvm:  0.89
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.94 5000
+acc of qisvm:  0.9
+acc of svm:  0.64
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.95 5000
+acc of qisvm:  0.9299999999999999
+acc of svm:  0.87
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.96 5000
+acc of qisvm:  0.9299999999999999
+acc of svm:  0.64
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.97 5000
+acc of qisvm:  0.83
+acc of svm:  0.91
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.98 5000
+acc of qisvm:  0.91
+acc of svm:  0.83
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.99 5000
+acc of qisvm:  0.83
+acc of svm:  0.92
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 1.0 5000
+acc of qisvm:  0.94
+acc of svm:  0.89
+n,m,k,r,c,e,eta,max_round 100 100 1 3 2 5.0 0.01 5000
+acc of qisvm:  0.86
+acc of svm:  0.77
+n,m,k,r,c,e,eta,max_round 100 100 1 2 2 5.0 0.02 5000
+acc of qisvm:  0.97
+acc of svm:  0.75
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.03 5000
+acc of qisvm:  0.95
+acc of svm:  0.95
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.04 5000
+acc of qisvm:  0.89
+acc of svm:  0.79
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.05 5000
+acc of qisvm:  0.94
+acc of svm:  0.9299999999999999
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.06 5000
+acc of qisvm:  0.99
+acc of svm:  0.96
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.07 5000
+acc of qisvm:  0.95
+acc of svm:  0.85
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.08 5000
+acc of qisvm:  0.92
+acc of svm:  0.85
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.09 5000
+acc of qisvm:  0.9
+acc of svm:  0.97
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.1 5000
+acc of qisvm:  0.88
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.11 5000
+acc of qisvm:  0.97
+acc of svm:  0.79
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.12 5000
+acc of qisvm:  0.9
+acc of svm:  0.9299999999999999
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.13 5000
+acc of qisvm:  0.86
+acc of svm:  0.94
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.14 5000
+acc of qisvm:  0.88
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.15 5000
+acc of qisvm:  0.88
+acc of svm:  0.88
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.16 5000
+acc of qisvm:  0.94
+acc of svm:  0.95
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.17 5000
+acc of qisvm:  0.8200000000000001
+acc of svm:  0.9
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.18 5000
+acc of qisvm:  0.8
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.19 5000
+acc of qisvm:  0.94
+acc of svm:  0.87
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.2 5000
+acc of qisvm:  0.89
+acc of svm:  0.87
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.21 5000
+acc of qisvm:  0.92
+acc of svm:  0.72
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.22 5000
+acc of qisvm:  0.88
+acc of svm:  0.88
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.23 5000
+acc of qisvm:  0.9299999999999999
+acc of svm:  0.86
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.24 5000
+acc of qisvm:  0.8200000000000001
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.25 5000
+acc of qisvm:  1.0
+acc of svm:  0.85
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.26 5000
+acc of qisvm:  1.0
+acc of svm:  0.87
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.27 5000
+acc of qisvm:  0.98
+acc of svm:  0.81
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.28 5000
+acc of qisvm:  0.72
+acc of svm:  0.76
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.29 5000
+acc of qisvm:  0.99
+acc of svm:  0.9
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.3 5000
+acc of qisvm:  1.0
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.31 5000
+acc of qisvm:  0.96
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.32 5000
+acc of qisvm:  0.94
+acc of svm:  0.78
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.33 5000
+acc of qisvm:  0.94
+acc of svm:  0.65
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.34 5000
+acc of qisvm:  0.7
+acc of svm:  0.9299999999999999
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.35 5000
+acc of qisvm:  0.92
+acc of svm:  0.92
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.36 5000
+acc of qisvm:  0.98
+acc of svm:  0.89
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.37 5000
+acc of qisvm:  0.97
+acc of svm:  0.9299999999999999
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.38 5000
+acc of qisvm:  0.86
+acc of svm:  0.72
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.39 5000
+acc of qisvm:  0.87
+acc of svm:  0.88
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.4 5000
+acc of qisvm:  0.94
+acc of svm:  0.78
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.41 5000
+acc of qisvm:  0.92
+acc of svm:  0.81
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.42 5000
+acc of qisvm:  0.79
+acc of svm:  0.85
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.43 5000
+acc of qisvm:  0.97
+acc of svm:  0.9
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.44 5000
+acc of qisvm:  0.89
+acc of svm:  0.89
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.45 5000
+acc of qisvm:  0.79
+acc of svm:  0.73
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.46 5000
+acc of qisvm:  0.85
+acc of svm:  0.87
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.47 5000
+acc of qisvm:  0.9299999999999999
+acc of svm:  0.64
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.48 5000
+acc of qisvm:  0.9299999999999999
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.49 5000
+acc of qisvm:  0.96
+acc of svm:  0.97
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.5 5000
+acc of qisvm:  0.96
+acc of svm:  0.81
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.51 5000
+acc of qisvm:  0.91
+acc of svm:  0.94
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.52 5000
+acc of qisvm:  0.88
+acc of svm:  0.76
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.53 5000
+acc of qisvm:  0.9299999999999999
+acc of svm:  0.84
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.54 5000
+acc of qisvm:  0.97
+acc of svm:  0.7
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.55 5000
+acc of qisvm:  0.92
+acc of svm:  0.91
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.56 5000
+acc of qisvm:  1.0
+acc of svm:  0.96
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.57 5000
+acc of qisvm:  0.98
+acc of svm:  0.86
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.58 5000
+acc of qisvm:  0.95
+acc of svm:  0.83
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.59 5000
+acc of qisvm:  0.99
+acc of svm:  0.86
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.6 5000
+acc of qisvm:  0.79
+acc of svm:  0.77
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.61 5000
+acc of qisvm:  1.0
+acc of svm:  0.77
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.62 5000
+acc of qisvm:  0.88
+acc of svm:  0.87
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.63 5000
+acc of qisvm:  0.99
+acc of svm:  0.89
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.64 5000
+acc of qisvm:  0.92
+acc of svm:  0.9299999999999999
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.65 5000
+acc of qisvm:  0.97
+acc of svm:  0.83
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.66 5000
+acc of qisvm:  0.94
+acc of svm:  0.92
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.67 5000
+acc of qisvm:  0.98
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.68 5000
+acc of qisvm:  0.95
+acc of svm:  0.87
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.69 5000
+acc of qisvm:  0.95
+acc of svm:  0.92
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.7 5000
+acc of qisvm:  0.97
+acc of svm:  0.91
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.71 5000
+acc of qisvm:  0.78
+acc of svm:  0.86
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.72 5000
+acc of qisvm:  0.91
+acc of svm:  0.83
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.73 5000
+acc of qisvm:  0.96
+acc of svm:  0.8200000000000001
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.74 5000
+acc of qisvm:  0.99
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.75 5000
+acc of qisvm:  0.79
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.76 5000
+acc of qisvm:  0.97
+acc of svm:  0.76
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.77 5000
+acc of qisvm:  0.84
+acc of svm:  0.78
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.78 5000
+acc of qisvm:  0.94
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.79 5000
+acc of qisvm:  0.97
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.8 5000
+acc of qisvm:  0.9299999999999999
+acc of svm:  0.7
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.81 5000
+acc of qisvm:  0.7
+acc of svm:  0.87
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.82 5000
+acc of qisvm:  0.87
+acc of svm:  0.84
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.83 5000
+acc of qisvm:  0.92
+acc of svm:  0.64
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.84 5000
+acc of qisvm:  0.87
+acc of svm:  0.83
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.85 5000
+acc of qisvm:  0.99
+acc of svm:  0.92
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.86 5000
+acc of qisvm:  0.88
+acc of svm:  0.76
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.87 5000
+acc of qisvm:  0.98
+acc of svm:  0.89
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.88 5000
+acc of qisvm:  0.94
+acc of svm:  0.94
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.89 5000
+acc of qisvm:  0.94
+acc of svm:  0.84
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.9 5000
+acc of qisvm:  0.87
+acc of svm:  0.88
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.91 5000
+acc of qisvm:  0.91
+acc of svm:  0.85
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.92 5000
+acc of qisvm:  0.87
+acc of svm:  0.86
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.93 5000
+acc of qisvm:  0.98
+acc of svm:  0.81
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.94 5000
+acc of qisvm:  0.97
+acc of svm:  0.73
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.95 5000
+acc of qisvm:  0.86
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.96 5000
+acc of qisvm:  0.94
+acc of svm:  0.77
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.97 5000
+acc of qisvm:  0.84
+acc of svm:  0.79
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.98 5000
+acc of qisvm:  0.9
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.99 5000
+acc of qisvm:  0.8
+acc of svm:  0.74
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 1.0 5000
+acc of qisvm:  0.95
+acc of svm:  0.94
+n,m,k,r,c,e,eta,max_round 100 100 1 3 2 5.0 0.01 5000
+acc of qisvm:  0.9299999999999999
+acc of svm:  0.54
+n,m,k,r,c,e,eta,max_round 100 100 1 2 2 5.0 0.02 5000
+acc of qisvm:  0.95
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.03 5000
+acc of qisvm:  0.94
+acc of svm:  0.61
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.04 5000
+acc of qisvm:  0.96
+acc of svm:  0.5900000000000001
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.05 5000
+acc of qisvm:  0.81
+acc of svm:  0.51
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.06 5000
+acc of qisvm:  1.0
+acc of svm:  0.53
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.07 5000
+n,m,k,r,c,e,eta,max_round 100 100 1 3 2 5.0 0.01 5000
+acc of qisvm:  0.95
+acc of svm:  0.96
+n,m,k,r,c,e,eta,max_round 100 100 1 2 2 5.0 0.02 5000
+acc of qisvm:  0.97
+acc of svm:  0.94
+n,m,k,r,c,e,eta,max_round 100 100 1 2 2 5.0 0.02 5000
+acc of qisvm:  1.0
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.03 5000
+acc of qisvm:  0.89
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.04 5000
+acc of qisvm:  0.9299999999999999
+acc of svm:  0.83
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.05 5000
+acc of qisvm:  0.83
+acc of svm:  0.9299999999999999
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.06 5000
+acc of qisvm:  0.99
+acc of svm:  0.86
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.07 5000
+acc of qisvm:  1.0
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.08 5000
+acc of qisvm:  0.97
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.09 5000
+acc of qisvm:  0.94
+acc of svm:  0.97
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.1 5000
+acc of qisvm:  0.94
+acc of svm:  0.95
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.11 5000
+acc of qisvm:  1.0
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.12 5000
+acc of qisvm:  0.83
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.13 5000
+acc of qisvm:  0.96
+acc of svm:  0.94
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.14 5000
+acc of qisvm:  0.99
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.15 5000
+acc of qisvm:  0.92
+acc of svm:  0.95
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.16 5000
+acc of qisvm:  1.0
+acc of svm:  0.88
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.17 5000
+acc of qisvm:  0.98
+acc of svm:  0.9
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.18 5000
+acc of qisvm:  0.86
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.19 5000
+acc of qisvm:  0.8
+acc of svm:  0.95
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.2 5000
+acc of qisvm:  0.87
+acc of svm:  0.95
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.21 5000
+acc of qisvm:  0.97
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.22 5000
+acc of qisvm:  0.84
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.23 5000
+acc of qisvm:  0.8
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.24 5000
+acc of qisvm:  1.0
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.25 5000
+acc of qisvm:  0.87
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.26 5000
+acc of qisvm:  0.98
+acc of svm:  0.9299999999999999
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.27 5000
+acc of qisvm:  0.94
+acc of svm:  0.79
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.28 5000
+acc of qisvm:  0.73
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.29 5000
+acc of qisvm:  0.94
+acc of svm:  0.96
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.3 5000
+acc of qisvm:  0.9
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.31 5000
+acc of qisvm:  0.86
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.32 5000
+acc of qisvm:  0.9
+acc of svm:  0.97
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.33 5000
+acc of qisvm:  0.95
+acc of svm:  0.95
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.34 5000
+acc of qisvm:  0.99
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.35 5000
+acc of qisvm:  0.9
+acc of svm:  0.91
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.36 5000
+acc of qisvm:  0.86
+acc of svm:  0.81
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.37 5000
+acc of qisvm:  0.98
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.38 5000
+acc of qisvm:  0.96
+acc of svm:  0.96
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.39 5000
+acc of qisvm:  0.92
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.4 5000
+acc of qisvm:  0.87
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.41 5000
+acc of qisvm:  0.78
+acc of svm:  0.97
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.42 5000
+acc of qisvm:  0.94
+acc of svm:  0.94
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.43 5000
+acc of qisvm:  0.9299999999999999
+acc of svm:  0.95
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.44 5000
+acc of qisvm:  1.0
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.45 5000
+acc of qisvm:  0.9
+acc of svm:  0.95
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.46 5000
+acc of qisvm:  0.97
+acc of svm:  0.96
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.47 5000
+acc of qisvm:  0.97
+acc of svm:  0.8200000000000001
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.48 5000
+acc of qisvm:  0.96
+acc of svm:  0.92
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.49 5000
+acc of qisvm:  0.96
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.5 5000
+acc of qisvm:  1.0
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.51 5000
+acc of qisvm:  1.0
+acc of svm:  0.95
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.52 5000
+acc of qisvm:  0.98
+acc of svm:  0.97
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.53 5000
+acc of qisvm:  0.91
+acc of svm:  0.97
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.54 5000
+acc of qisvm:  0.89
+acc of svm:  0.96
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.55 5000
+acc of qisvm:  0.99
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.56 5000
+acc of qisvm:  0.97
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.57 5000
+acc of qisvm:  0.87
+acc of svm:  0.95
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.58 5000
+acc of qisvm:  0.9
+acc of svm:  0.95
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.59 5000
+acc of qisvm:  0.95
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.6 5000
+acc of qisvm:  0.94
+acc of svm:  0.97
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.61 5000
+acc of qisvm:  0.79
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.62 5000
+acc of qisvm:  0.95
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.63 5000
+acc of qisvm:  0.99
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.64 5000
+acc of qisvm:  0.99
+acc of svm:  0.94
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.65 5000
+acc of qisvm:  0.9299999999999999
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.66 5000
+acc of qisvm:  0.97
+acc of svm:  0.97
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.67 5000
+acc of qisvm:  0.92
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.68 5000
+acc of qisvm:  0.99
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.69 5000
+acc of qisvm:  0.95
+acc of svm:  0.96
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.7 5000
+acc of qisvm:  0.95
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.71 5000
+acc of qisvm:  0.92
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.72 5000
+acc of qisvm:  0.97
+acc of svm:  0.97
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.73 5000
+acc of qisvm:  0.89
+acc of svm:  0.94
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.74 5000
+acc of qisvm:  0.94
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.75 5000
+acc of qisvm:  0.73
+acc of svm:  0.9299999999999999
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.76 5000
+acc of qisvm:  0.99
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.77 5000
+acc of qisvm:  0.86
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.78 5000
+acc of qisvm:  0.85
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.79 5000
+acc of qisvm:  1.0
+acc of svm:  0.96
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.8 5000
+acc of qisvm:  0.98
+acc of svm:  0.9299999999999999
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.81 5000
+acc of qisvm:  1.0
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.82 5000
+acc of qisvm:  0.97
+acc of svm:  0.96
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.83 5000
+acc of qisvm:  0.92
+acc of svm:  0.96
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.84 5000
+acc of qisvm:  0.9299999999999999
+acc of svm:  0.9299999999999999
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.85 5000
+acc of qisvm:  0.89
+acc of svm:  0.95
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.86 5000
+acc of qisvm:  0.87
+acc of svm:  0.95
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.87 5000
+acc of qisvm:  1.0
+acc of svm:  0.96
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.88 5000
+acc of qisvm:  0.95
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.89 5000
+acc of qisvm:  0.88
+acc of svm:  0.91
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.9 5000
+acc of qisvm:  0.88
+acc of svm:  0.91
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.91 5000
+acc of qisvm:  0.84
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.92 5000
+acc of qisvm:  0.96
+acc of svm:  0.95
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.93 5000
+acc of qisvm:  0.83
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.94 5000
+acc of qisvm:  0.97
+acc of svm:  0.9299999999999999
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.95 5000
+acc of qisvm:  0.72
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.96 5000
+acc of qisvm:  0.99
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.97 5000
+acc of qisvm:  0.98
+acc of svm:  0.9299999999999999
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.98 5000
+acc of qisvm:  0.91
+acc of svm:  0.97
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.99 5000
+acc of qisvm:  0.94
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 1.0 5000
+acc of qisvm:  0.95
+acc of svm:  0.95
+n,m,k,r,c,e,eta,max_round 100 100 1 40 35 1.0 0.1 5000
+ of qisvm:  0.97
+acc of svm:  0.9299999999999999
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 200
+acc of qisvm:  0.9299999999999999
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 300
+acc of qisvm:  1.0
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 400
+acc of qisvm:  0.94
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 500
+acc of qisvm:  0.84
+acc of svm:  0.89
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 600
+acc of qisvm:  0.9299999999999999
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 700
+acc of qisvm:  0.95
+acc of svm:  0.97
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 800
+acc of qisvm:  1.0
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 900
+acc of qisvm:  0.95
+acc of svm:  0.97
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 1000
+acc of qisvm:  0.75
+acc of svm:  0.94
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 1100
+acc of qisvm:  0.86
+acc of svm:  0.97
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 1200
+acc of qisvm:  0.99
+acc of svm:  0.96
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 1300
+acc of qisvm:  0.83
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 1400
+acc of qisvm:  0.97
+acc of svm:  0.9299999999999999
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 1500
+acc of qisvm:  0.96
+acc of svm:  0.96
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 1600
+acc of qisvm:  0.91
+acc of svm:  0.92
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 1700
+acc of qisvm:  0.96
+acc of svm:  0.88
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 1800
+acc of qisvm:  0.94
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 1900
+acc of qisvm:  0.85
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 2000
+acc of qisvm:  0.88
+acc of svm:  0.97
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 2100
+acc of qisvm:  0.99
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 2200
+acc of qisvm:  0.98
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 2300
+acc of qisvm:  0.81
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 2400
+acc of qisvm:  0.9299999999999999
+acc of svm:  0.91
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 2500
+acc of qisvm:  0.99
+acc of svm:  0.97
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 2600
+acc of qisvm:  0.94
+acc of svm:  0.97
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 2700
+acc of qisvm:  0.96
+acc of svm:  0.96
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 2800
+acc of qisvm:  0.97
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 2900
+acc of qisvm:  0.92
+acc of svm:  0.94
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 3000
+acc of qisvm:  0.9
+acc of svm:  0.9
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 3100
+acc of qisvm:  0.9
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 3200
+acc of qisvm:  0.98
+acc of svm:  0.85
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 3300
+acc of qisvm:  0.9299999999999999
+acc of svm:  0.95
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 3400
+acc of qisvm:  0.96
+acc of svm:  0.92
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 3500
+acc of qisvm:  0.98
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 3600
+acc of qisvm:  0.99
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 3700
+acc of qisvm:  0.8200000000000001
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 3800
+acc of qisvm:  0.9299999999999999
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 3900
+acc of qisvm:  0.88
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 4000
+acc of qisvm:  0.99
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 4100
+acc of qisvm:  0.94
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 4200
+acc of qisvm:  0.8
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 4300
+acc of qisvm:  0.92
+acc of svm:  0.95
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 4400
+acc of qisvm:  0.92
+acc of svm:  0.97
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 4500
+acc of qisvm:  0.97
+acc of svm:  0.97
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 4600
+acc of qisvm:  1.0
+acc of svm:  0.97
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 4700
+acc of qisvm:  0.91
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 4800
+acc of qisvm:  1.0
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 4900
+acc of qisvm:  0.86
+acc of svm:  0.92
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 5000
+acc of qisvm:  0.95
+acc of svm:  0.95
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 5100
+acc of qisvm:  0.9299999999999999
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 5200
+acc of qisvm:  0.98
+acc of svm:  0.73
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 5300
+acc of qisvm:  0.89
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 5400
+acc of qisvm:  0.97
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 5500
+acc of qisvm:  0.81
+acc of svm:  0.95
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 5600
+acc of qisvm:  0.96
+acc of svm:  0.96
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 5700
+acc of qisvm:  0.8
+acc of svm:  0.97
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 5800
+acc of qisvm:  0.87
+acc of svm:  0.96
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 5900
+acc of qisvm:  0.92
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 6000
+acc of qisvm:  0.89
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 6100
+acc of qisvm:  0.91
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 6200
+acc of qisvm:  0.98
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 6300
+acc of qisvm:  1.0
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 6400
+acc of qisvm:  0.87
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 6500
+acc of qisvm:  0.92
+acc of svm:  0.83
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 6600
+acc of qisvm:  0.84
+acc of svm:  0.94
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 6700
+acc of qisvm:  1.0
+acc of svm:  0.91
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 6800
+acc of qisvm:  0.96
+acc of svm:  0.96
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 6900
+acc of qisvm:  0.95
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 7000
+acc of qisvm:  0.99
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 7100
+acc of qisvm:  1.0
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 7200
+acc of qisvm:  0.81
+acc of svm:  0.94
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 7300
+acc of qisvm:  0.99
+acc of svm:  0.97
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 7400
+acc of qisvm:  0.94
+acc of svm:  0.96
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 7500
+acc of qisvm:  0.92
+acc of svm:  0.97
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 7600
+acc of qisvm:  0.88
+acc of svm:  0.97
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 7700
+acc of qisvm:  0.89
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 7800
+acc of qisvm:  0.96
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 7900
+acc of qisvm:  0.86
+acc of svm:  0.94
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 8000
+acc of qisvm:  0.9299999999999999
+acc of svm:  0.96
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 8100
+acc of qisvm:  0.83
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 8200
+acc of qisvm:  0.86
+acc of svm:  0.97
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 8300
+acc of qisvm:  0.83
+acc of svm:  0.89
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 8400
+acc of qisvm:  0.92
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 8500
+acc of qisvm:  0.98
+acc of svm:  0.94
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 8600
+acc of qisvm:  0.8200000000000001
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 8700
+acc of qisvm:  0.89
+acc of svm:  0.97
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 8800
+acc of qisvm:  0.86
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 8900
+acc of qisvm:  0.9
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 9000
+acc of qisvm:  0.96
+acc of svm:  0.8200000000000001
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 9100
+acc of qisvm:  0.8
+acc of svm:  1.0
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 9200
+acc of qisvm:  0.92
+acc of svm:  0.98
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 9300
+acc of qisvm:  0.92
+acc of svm:  0.97
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 9400
+acc of qisvm:  0.75
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 9500
+acc of qisvm:  0.95
+acc of svm:  0.99
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 9600
+acc of qisvm:  0.9299999999999999
+acc of svm:  0.95
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 9700
+acc of qisvm:  0.96
+acc of svm:  0.96
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 9800
+acc of qisvm:  0.94
+acc of svm:  0.97
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 9900
+acc of qisvm:  0.91
+acc of svm:  0.74
+n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 10000
+acc of qisvm:  0.88
+acc of svm:  0.89
