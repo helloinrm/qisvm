@@ -1539,3 +1539,73 @@ acc of svm:  0.74
 n,m,k,r,c,e,eta,max_round 100 100 1 5 3 3.0 0.1 10000
 acc of qisvm:  0.88
 acc of svm:  0.89
+2020-02-19T14:52:04.436
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.1 5000
+acc of qisvm:  0.96
+acc of svm:  0.99
+2020-02-19T14:52:27.365
+n,m,k,r,c,e,eta,max_round 100 100 1 2 1 5.0 0.1 5000
+acc of qisvm:  0.95
+acc of svm:  0.99
+2020-02-19T14:52:30.324
+n,m,k,r,c,e,eta,max_round 100 100 1 4 2 5.0 0.1 5000
+acc of qisvm:  0.9
+acc of svm:  0.99
+2020-02-19T14:52:42.511
+n,m,k,r,c,e,eta,max_round 100 100 1 6 3 5.0 0.1 5000
+acc of qisvm:  0.89
+acc of svm:  0.97
+2020-02-19T14:53:09.736
+n,m,k,r,c,e,eta,max_round 100 100 1 8 8 5.0 0.1 5000
+acc of qisvm:  0.99
+acc of svm:  1.0
+2020-02-19T14:54:00.188
+n,m,k,r,c,e,eta,max_round 100 100 1 10 10 5.0 0.1 5000
+acc of qisvm:  0.81
+acc of svm:  1.0
+2020-02-19T14:55:18.401
+n,m,k,r,c,e,eta,max_round 100 100 1 12 12 5.0 0.1 5000
+acc of qisvm:  0.95
+acc of svm:  1.0
+2020-02-19T14:57:16.764
+n,m,k,r,c,e,eta,max_round 100 100 1 14 14 5.0 0.1 5000
+acc of qisvm:  0.87
+acc of svm:  1.0
+2020-02-19T15:00:09.867
+n,m,k,r,c,e,eta,max_round 100 100 1 16 16 5.0 0.1 5000
+acc of qisvm:  1.0
+acc of svm:  0.98
+2020-02-19T15:04:23.296
+n,m,k,r,c,e,eta,max_round 100 100 1 18 18 5.0 0.1 5000
+acc of qisvm:  0.89
+acc of svm:  1.0
+2020-02-19T15:09:13.809
+n,m,k,r,c,e,eta,max_round 100 100 1 20 20 5.0 0.1 5000
+acc of qisvm:  0.95
+acc of svm:  0.86
+2020-02-19T15:15:11.958
+n,m,k,r,c,e,eta,max_round 100 100 1 22 22 5.0 0.1 5000
+acc of qisvm:  0.95
+acc of svm:  0.95
+2020-02-19T15:22:28.29
+n,m,k,r,c,e,eta,max_round 100 100 1 24 24 5.0 0.1 5000
+acc of qisvm:  0.9299999999999999
+acc of svm:  0.99
+2020-02-19T15:30:55.314
+n,m,k,r,c,e,eta,max_round 100 100 1 26 26 5.0 0.1 5000
+acc of qisvm:  0.89
+acc of svm:  0.97
+2020-02-19T15:40:56.302
+n,m,k,r,c,e,eta,max_round 100 100 1 28 28 5.0 0.1 5000
+acc of qisvm:  0.99
+acc of svm:  0.98
+2020-02-19T15:52:17.495
+n,m,k,r,c,e,eta,max_round 100 100 1 30 30 5.0 0.1 5000
+acc of qisvm:  0.99
+acc of svm:  0.99
+2020-02-19T16:05:42.823
+n,m,k,r,c,e,eta,max_round 100 100 1 32 32 5.0 0.1 5000
+acc of qisvm:  0.65
+acc of svm:  0.98
+2020-02-19T16:21:03.627
+n,m,k,r,c,e,eta,max_round 100 100 1 34 34 5.0 0.1 5000

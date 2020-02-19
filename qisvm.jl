@@ -1,4 +1,3 @@
-module qisvm
 using LinearAlgebra
 using Statistics
 using Dates
@@ -267,6 +266,7 @@ function work(n::Int,m::Int,k::Int,subsize::Int,e::Float64,eta::Float64,max_roun
     c=Int(ceil(4*log2(r/eta)/e^2))*subsize
     io=open("outcome.txt","a")
     println(Dates.now())
+    println(io,Dates.now())
     println("n,m,k,r,c,e,eta,max_round ",n," ",m," ",k," ",r," ",c," ",e," ",eta," ",max_round)
     println(io,"n,m,k,r,c,e,eta,max_round ",n," ",m," ",k," ",r," ",c," ",e," ",eta," ",max_round)
     X,y=generate(n,m,k)
@@ -289,7 +289,3 @@ function asmalltest()
     println(acc(label1,y))
     println(acc(label2,y))
 end
-
-
-
-end # module
