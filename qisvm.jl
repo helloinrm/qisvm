@@ -3,6 +3,14 @@ using Statistics
 using Dates
 using LIBSVM
 using Plots
+using DataFrames
+using CSV
+using DelimitedFiles
+using Notifier
+using Convex
+using SCS
+using ECOS
+
 
 struct Tector
     array::Array{Float64}
@@ -136,12 +144,17 @@ function round_control(x::Float64,mr::Int)
     end
 end
 
-function getlam(X::Tatrix,y::Array{Float64},r::Int,e::Float64,eta::Float64,max_round::Int,Fro_div_r::Float64,j_list::Array{Int},vj_list::Array{Float64},X_prime_s::Array{Float64,2},X_dprime::Array{Float64,2})
+function getlam(X::Tatrix,y::Array{Float64},k::Int,r::Int,e::Float64,eta::Float64,max_round::Int,Fro_div_r::Float64,j_list::Array{Int},vj_list::Array{Float64},X_prime_s::Array{Float64,2},X_dprime::Array{Float64,2})
     sig2,V=eigen(X_dprime'*X_dprime)
     #tol=sig2[end]*size(X.mat)[1]*size(X.mat)[2]*eps(Float64)
     tol=1e-10
     comp=sig2.>tol
-    k=sum(comp)
+    if k==-1
+        k=sum(comp)
+    end
+    if r-k+1<=0
+        k=r
+    end
     sig2=sig2[end-k+1:end]
     V=V[:,end-k+1:end]
     lam=zeros(k)
@@ -162,6 +175,7 @@ end
 function getclas(X::Tatrix,y::Array{Float64},x::Array{Float64},r::Int,e::Float64,eta::Float64,max_round::Int,Fro_div_r::Float64,j_list::Array{Int},vj_list::Array{Float64},u::Array{Float64})
     times=ceil(36/e^2)*ceil(6*log2(16/eta))
     relax_parameter=10
+    #in practice we don't think e1 and eta1 being that small is both effective and efficiency, so we set a relax_parameter
     e1=e/2/sqrt(r)/times*relax_parameter
     eta1=eta/8/r/times*relax_parameter
     R_s=fill(NaN,(r,size(X.mat)[2]))
@@ -210,18 +224,24 @@ function getclas(X::Tatrix,y::Array{Float64},x::Array{Float64},r::Int,e::Float64
     return clas
 end
 
-function svm(X::Tatrix,y::Array{Float64},x::Array{Float64},r::Int,c::Int,e::Float64,eta::Float64,max_round::Int)
+function svm(X::Tatrix,y::Array{Float64},x::Array{Float64},r::Int,c::Int,e::Float64,eta::Float64,max_round::Int,k::Int=-1)
     Fro_div_r,j_list,vj_list,X_prime_s,X_dprime=samtatrix2(X,r,c)
-    u=getlam(X,y,r,e,eta,max_round,Fro_div_r,j_list,vj_list,X_prime_s,X_dprime)
+    u=getlam(X,y,k,r,e,eta,max_round,Fro_div_r,j_list,vj_list,X_prime_s,X_dprime)
     clas=getclas(X,y,x,r,e,eta,max_round,Fro_div_r,j_list,vj_list,u)
     return sign.(clas)
 end
 
-function generate(n,m,k)
+function generate(n::Int,m::Int,k::Int,turbulence::Int=0)
     #a,b,c=svd(rand(n,m))
     #b[end-k+1,end]=0
     #X=a*Diagonal(b)*c
     X=(rand(n,k).-0.5)*(rand(k,m).-0.5)
+    if turbulence==1
+        X=X+0.1*mean(abs.(X))*2*(rand(n,m).-0.5)
+    elseif turbulence==2
+        X[1:10,:]=X[1:10,:]+0.1*mean(abs.(X))*2*(rand(10,m).-0.5)
+    end
+    #the randomness might bring a X with rank less than k, but that is very rare case
     X=X./opnorm(X)
     flag=0
     y=ones(m)
@@ -237,8 +257,34 @@ function generate(n,m,k)
     return X,y
 end
 
+function generate(n::Int,m::Int,k::Int,test_rate::Float64,turbulence::Int=0)
+    if test_rate>=1 || test_rate<=0
+        error("test rate not good!")
+    end
+    X,y=generate(n,m,k,turbulence)
+    test_m=Int(ceil(test_rate*m))
+    train_m=m-Int(ceil(test_rate*m))
+    flag=0
+    train_col_index=rand(1:m,train_m)
+    while flag==0
+        for i in train_col_index
+            if y[i]*y[train_col_index[1]]<0
+                flag=1
+            end
+        end
+        train_col_index=rand(1:m,train_m)
+    end
+    test_col_index=setdiff(1:m,train_col_index)
+    train_set=X[:,train_col_index]
+    test_set=X[:,test_col_index]
+    train_label=y[train_col_index]
+    test_label=y[test_col_index]
+    return train_set,test_set,train_label,test_label
+end
+
 function svm2(X::Array{Float64,2},y::Array{Float64},x::Array{Float64})
     a=pinv(X'*X)*y
+    a=a[:]
     j=rand((1:size(X)[2])[abs.(a).>size(X)[1]*size(X)[2]*eps(Float64)])
     if length(size(x))==1
         num_h=1
@@ -259,33 +305,318 @@ function svm3(X::Array{Float64,2},y::Array{Float64},x::Array{Float64})
     return predicted_labels
 end
 
+function svm4(X::Array{Float64,2},y::Array{Float64},x::Array{Float64})
+    alpha=Variable(size(X)[2])
+    problem=maximize(sum(alpha)-1/2*sumsquares(X*Diagonal(y)*alpha),[alpha>=0,alpha'*y==0])
+    solve!(problem,SCSSolver())
+    a=alpha.value.*y
+    a=a[:]
+    anothera=pinv(X'*X)*y
+    println(norm(a-anothera))
+    j=rand((1:size(X)[2])[abs.(a).>size(X)[1]*size(X)[2]*eps(Float64)])
+    if length(size(x))==1
+        num_h=1
+    else
+        num_h=size(x)[2]
+    end
+    clas=zeros(num_h)
+    for h in 1:num_h
+        clas[h]=y[j]+(x[:,h]-X[:,j])'*X*a
+    end
+    return sign.(clas)
+end
+
+function svm5(X::Array{Float64,2},y::Array{Float64},x::Array{Float64})
+    alpha=Variable(size(X)[2])
+    #problem=maximize(alpha'*y-1/2*sumsquares(X*alpha),[alpha'*y>=0,alpha==0])
+    problem=maximize(alpha'*y-1/2*sumsquares(X*alpha))
+    solve!(problem,ECOSSolver(verbose=false))
+    #solve!(problem,GurobiSolver(verbose=false))
+    a=alpha.value[:]
+    anothera=pinv(X'*X)*y
+    #println(X*a-y)
+    println(norm(a-anothera))
+    j=rand((1:size(X)[2])[abs.(a).>size(X)[1]*size(X)[2]*eps(Float64)])
+    if length(size(x))==1
+        num_h=1
+    else
+        num_h=size(x)[2]
+    end
+    clas=zeros(num_h)
+    for h in 1:num_h
+        clas[h]=y[j]+(x[:,h]-X[:,j])'*X*a
+    end
+    return sign.(clas)
+end
+
 acc(y1::Array{Float64},y2::Array{Float64})=1-sum(abs.(y1-y2))/2length(y1)
 
-function work(n::Int,m::Int,k::Int,subsize::Int,e::Float64,eta::Float64,max_round::Int)
-    r=Int(ceil(4*log2(n/eta)/e^2))*subsize
-    c=Int(ceil(4*log2(r/eta)/e^2))*subsize
-    io=open("outcome.txt","a")
-    println(Dates.now())
-    println(io,Dates.now())
-    println("n,m,k,r,c,e,eta,max_round ",n," ",m," ",k," ",r," ",c," ",e," ",eta," ",max_round)
-    println(io,"n,m,k,r,c,e,eta,max_round ",n," ",m," ",k," ",r," ",c," ",e," ",eta," ",max_round)
-    X,y=generate(n,m,k)
-    tat=mat2tatrix(X)
-    label1=svm(tat,y,X,r,c,e,eta,max_round)
-    label2=svm3(X,y,X)
-    s1,s2=acc(label1,y),acc(label2,y)
-    println("acc of qisvm:  ",s1)
-    println(io,"acc of qisvm:  ",s1)
-    println("acc of svm:  ",s2)
-    println(io,"acc of svm:  ",s2)
-    close(io)
-    return s1,s2
+function find_good_matrix(n::Int,m::Int,k::Int)
+    score=0
+    X_s=zeros(n,m)
+    y_s=zeros(m)
+    for i in 1:10
+        X,y=generate(n,m,k)
+        label2=svm3(X,y,X)
+        ac=acc(label2,y)
+        if ac>score
+            score=ac
+            X_s=X
+            y_s=y
+        end
+    end
+    #writedlm("X.csv",X_s)
+    #writedlm("y.csv",y_s)
+    return X_s,y_s
 end
 
-function asmalltest()
-    X,y=generate(2,10,2)
-    label1=svm2(X,y,X)
-    label2=svm3(X,y,X)
-    println(acc(label1,y))
-    println(acc(label2,y))
+function maxroundcal(r::Int,e::Float64,eta::Float64,relax_parameter::Int)
+    times=ceil(36/e^2)*ceil(6*log2(16/eta))
+    e1=e/2/sqrt(r)/times*relax_parameter
+    eta1=eta/8/r/times*relax_parameter
+    n1=6*log2(2/eta1)
+    n2=9/e1^2
+    return Int(ceil(max(n1,n2)))
 end
+#224,22303
+
+function work(X::Array{Float64,2},y::Array{Float64},tat::Tatrix,n::Int,m::Int,k::Int,subsize::Int,e::Float64,eta::Float64,max_round::Int,work_times::Int)
+    r=Int(ceil(4*log2(n/eta)/e^2))*subsize
+    c=Int(ceil(4*log2(r/eta)/e^2))*subsize
+    s1=zeros(work_times)
+    for i in 1:work_times
+        println(Dates.now())
+        println("n,m,k,r,c,e,eta,max_round ",n," ",m," ",k," ",r," ",c," ",e," ",eta," ",max_round)
+        label1=svm(tat,y,X,r,c,e,eta,max_round)
+        s1[i]=acc(label1,y)
+        println("acc of qisvm:  ",s1[i])
+        df=DataFrame([n m k r c e eta max_round subsize s1[i]])
+        CSV.write("data.csv",df,append=true)
+    end
+    return s1
+end
+
+function experiment_eta()
+    n,m,k=100,100,1
+    X=readdlm("X.csv")
+    y=readdlm("y.csv")
+    tat=mat2tatrix(X)
+    e=5.0
+    max_round=5000
+    subsize=1
+    times=10
+    work_times=50
+    s1=zeros(work_times)
+    df=DataFrame()
+    for i=1:times
+        eta=i/times
+        s1=work(X,y,tat,n,m,k,subsize,e,eta,max_round,work_times)
+        df=vcat(df,array2df(n,m,k,subsize,e,eta,max_round,work_times,s1))
+    end
+    CSV.write("experiment_eta.csv",df)
+end
+
+function experiment_e()
+    n,m,k=100,100,1
+    X=readdlm("X.csv")
+    y=readdlm("y.csv")
+    tat=mat2tatrix(X)
+    eta=0.1
+    max_round=5000
+    subsize=1
+    times=10
+    work_times=50
+    s1=zeros(work_times)
+    df=DataFrame()
+    for i=1:times
+        e=11-i/times*10
+        s1=work(X,y,tat,n,m,k,subsize,e,eta,max_round,work_times)
+        df=vcat(df,array2df(n,m,k,subsize,e,eta,max_round,work_times,s1))
+    end
+    CSV.write("experiment_e.csv",df)
+end
+
+function experiment_mr()
+    n,m,k=100,100,1
+    X=readdlm("X.csv")
+    y=readdlm("y.csv")
+    tat=mat2tatrix(X)
+    e,eta=5.0,0.1
+    subsize=1
+    times=10
+    work_times=50
+    df=DataFrame()
+    for i=1:times
+        max_round=i*50
+        s1=work(X,y,tat,n,m,k,subsize,e,eta,max_round,work_times)
+        df=vcat(df,array2df(n,m,k,subsize,e,eta,max_round,work_times,s1))
+    end
+    CSV.write("experiment_mr.csv",df)
+end
+
+function experiment_ss()
+    n,m,k=100,100,1
+    X=readdlm("X.csv")
+    y=readdlm("y.csv")
+    tat=mat2tatrix(X)
+    e,eta=5.0,0.1
+    max_round=5000
+    times=10
+    work_times=50
+    df=DataFrame()
+    for i=1:times
+        subsize=i
+        s1=work(X,y,tat,n,m,k,subsize,e,eta,max_round,work_times)
+        df=vcat(df,array2df(n,m,k,subsize,e,eta,max_round,work_times,s1))
+    end
+    CSV.write("experiment_ss.csv",df)
+end
+
+function experiment_rank(e::Float64,eta::Float64,max_round::Int,subsize::Int)
+    n,m=100,100
+    times=5
+    work_times=10
+    for k=1:times
+        X,y=find_good_matrix(n,m,k)
+        tat=mat2tatrix(X)
+        s=work(X,y,tat,n,m,k,subsize,e,eta,max_round,work_times)
+        # df=array2df(n,m,k,subsize,e,eta,max_round,work_times,s)
+        # CSV.write("experiment_rank.csv",df,append=true)
+    end
+end
+
+function competition(turbulence::Int=0)
+    n,m=100,100
+    k=1
+    e,eta=5.0,0.1
+    max_round=5000
+    r=Int(ceil(4*log2(n/eta)/e^2))
+    c=Int(ceil(4*log2(r/eta)/e^2))
+    for i=1:5
+        println(Dates.now())
+        println("competition: ",i)
+        train_set,test_set,train_label,test_label=generate(n,m,k,0.2,turbulence)
+        tat=mat2tatrix(train_set)
+        label1=svm(tat,train_label,test_set,r,c,e,eta,max_round)
+        label2=svm2(train_set,train_label,test_set)
+        label3=svm3(train_set,train_label,test_set)
+        s1=acc(label1,test_label)
+        s2=acc(label2,test_label)
+        s3=acc(label3,test_label)
+        label1=svm(tat,train_label,train_set,r,c,e,eta,max_round)
+        label2=svm2(train_set,train_label,train_set)
+        label3=svm3(train_set,train_label,train_set)
+        c1=acc(label1,train_label)
+        c2=acc(label2,train_label)
+        c3=acc(label3,train_label)
+        rank=LinearAlgebra.rank(train_set)
+        df=DataFrame([s1 s2 s3 c1 c2 c3 rank])
+        CSV.write("competition.csv",df,append=true)
+        #println(s1," ",s2," ",s3," ",c1," ",c2," ",c3," ",rank)
+        println(c2)
+    end
+end
+
+
+function asamlltest()
+    sco=zeros(100)
+    for n=2:100
+        X,y=generate(n,100,1,1)
+        label1=svm2(X,y,X)
+        println(acc(label1,y))
+        sco[n]=acc(label1,y)
+    end
+    plot(sco)
+
+    #label1=svm5(X,y,X)
+    #s1=acc(label1,y)
+    #println("acc of svm:  ",s1)
+    #println(LinearAlgebra.rank(X))
+end
+
+function showdataset(n::Int,m::Int,k::Int)
+    test_rate=0.2
+    X=(rand(n,k).-0.5)*(rand(k,m).-0.5)
+    X=X+0.1*mean(abs.(X))*2*(rand(n,m).-0.5)
+    X=X./opnorm(X)
+    flag=0
+    y=ones(m)
+    a=zeros(n)
+    while flag==0
+        a=rand(n).-0.5
+        for i in 1:m
+            if a'*X[:,i]<0
+                flag=1
+                y[i]=-1
+            end
+        end
+    end
+    test_m=Int(ceil(test_rate*m))
+    train_m=m-Int(ceil(test_rate*m))
+    flag=0
+    train_col_index=rand(1:m,train_m)
+    while flag==0
+        for i in train_col_index
+            if y[i]*y[train_col_index[1]]<0
+                flag=1
+            end
+        end
+        train_col_index=rand(1:m,train_m)
+    end
+    test_col_index=setdiff(1:m,train_col_index)
+    train_set=X[:,train_col_index]
+    test_set=X[:,test_col_index]
+    train_label=y[train_col_index]
+    test_label=y[test_col_index]
+
+
+
+    yscale1=X'*a
+    al=pinv(train_set'*train_set)*train_label
+    al=al[:]
+    j=rand((1:size(train_set)[2])[abs.(al).>size(train_set)[1]*size(train_set)[2]*eps(Float64)])
+    w=train_set*al
+    b=train_label[j]-train_set[:,j]'*w
+    yscale2=X'*w.+b
+    plt=plot()
+    for i in test_col_index
+        if yscale1[i]>0
+            plot!([0,1],[yscale1[i],yscale2[i]],color=:blue,legend=:none)
+        else
+            plot!([0,1],[yscale1[i],yscale2[i]],color=:red)
+        end
+    end
+
+    #
+    # num_h=size(x)[2]
+    # clas=zeros(num_h)
+    # for h in 1:num_h
+    #     clas[h]=y[j]+(x[:,h]-X[:,j])'*X*a
+    # end
+    # label=svm2(X,y,X)
+    # println(acc(label,y))
+    #
+    # mi,ma=extrema(X[1,:])
+    # x=range(mi,ma,length=100)
+    # fx=-(w[1].*x.+b)./w[2]
+    # plt=plot(x,fx,color=:green)
+    # for i=1:100
+    #     if y[i]==1
+    #         scatter!((X[1,i],X[2,i]),color=:red,legend=:none)
+    #     else
+    #         scatter!((X[1,i],X[2,i]),color=:blue)
+    #     end
+    # end
+    display(plt)
+end
+
+#showdataset(100,100,1)
+#asamlltest()
+#competition(1)
+#competition(2)
+#experiment_rank(5.0,0.01,5000,1)
+#experiment_rank(5.0,0.1,10000,1)
+#experiment_rank(5.0,0.1,5000,2)
+#alarm()
+#say("Finish calculation!")
+#asamlltest()
