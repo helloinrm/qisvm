@@ -117,12 +117,12 @@ function paint4(file::String,sorc::String,title::String)
     savefig(plt,title*".pdf")
 end
 
-paint4("competition_0.csv","s","(a)")
-paint4("competition_0.csv","c","(b)")
-paint4("competition_2.csv","s","(c)")
-paint4("competition_2.csv","c","(d)")
-paint4("competition_1.csv","s","(e)")
-paint4("competition_1.csv","c","(f)")
+# paint4("competition_0.csv","s","ding12")
+# paint4("competition_0.csv","c","ding15")
+# paint4("competition_2.csv","s","ding13")
+# paint4("competition_2.csv","c","ding16")
+# paint4("competition_1.csv","s","ding14")
+# paint4("competition_1.csv","c","ding17")
 
 function simpledata(file::String,x::Array,work_times::Int,savename::String)
     data=CSV.read(file)
@@ -157,3 +157,24 @@ end
 # simpledata("experiment_rank_eta_0.01.csv",rank,10,"simple_rank_eta.csv")
 # simpledata("experiment_rank_mr_10000.csv",rank,10,"simple_rank_mr.csv")
 # simpledata("experiment_rank_ss_2.csv",rank,10,"simple_rank_ss.csv")
+function paint5()
+    zu=5
+    data=CSV.read("0702.csv")
+    s1=zeros(8)
+    s3=zeros(8)
+    c1=zeros(8)
+    c3=zeros(8)
+    for i=1:8
+        s1[i]=mean(data[1+5(i-1):5+5(i-1),1])
+        s3[i]=mean(data[1+5(i-1):5+5(i-1),3])
+        c1[i]=mean(data[1+5(i-1):5+5(i-1),4])
+        c3[i]=mean(data[1+5(i-1):5+5(i-1),6])
+        df=DataFrame([s1[i] s3[i] c1[i] c3[i]])
+        if i%2==1
+            CSV.write("0702_notur.csv",df,append=true)
+        else
+            CSV.write("0702_1tur.csv",df,append=true)
+        end
+    end
+end
+paint5()
